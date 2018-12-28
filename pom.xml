@@ -169,7 +169,7 @@
                         <tagNameFormat>v@{project.version}</tagNameFormat>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <useReleaseProfile>false</useReleaseProfile>
-                        <releaseProfiles>release</releaseProfiles>
+                        <releaseProfiles>sources,javadocs,codesign,nexus</releaseProfiles>
                         <goals>deploy</goals>
                     </configuration>
                 </plugin>
