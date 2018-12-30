@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.oregor</groupId>
     <artifactId>oregor-build-tools-java</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>Oregor Build Tools for Java</name>
     <description>Oregor Build Tools for Java. Checkstyle.</description>
     <url>https://www.oregor.com</url>
@@ -35,7 +35,7 @@
         <connection>scm:git:git://github.com/oregor-projects/oregor-build-tools-java.git</connection>
         <developerConnection>scm:git:git@github.com:oregor-projects/oregor-build-tools-java.git</developerConnection>
         <url>http://github.com/oregor-projects/oregor-build-tools-java/tree/master</url>
-        <tag>v0.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
