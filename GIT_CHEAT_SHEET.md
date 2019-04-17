@@ -5,17 +5,36 @@
 
 ### List local branches
 
-    git branch
+```bash
+git branch
+```
 
 ### List local and remote branches
 
-    git branch -av
+```bash
+git branch -av
+```
 
 ### Delete local branch
 
-    git branch -d <branch_name>
+```bash
+git branch -d your_branch_name_here
+```
 
 ### Delete remote branch
 
-    git push origin --delete <branch_name>
+```bash
+git push origin --delete your_branch_name_here
+```
 
+## Tags
+
+### Add Tag
+```bash
+git tag -a v1 -m "v1"
+```
+
+### Push Tag
+```bash
+git push origin v1
+```
