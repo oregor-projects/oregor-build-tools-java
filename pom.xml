@@ -11,7 +11,7 @@
     <inceptionYear>2018</inceptionYear>
 
     <organization>
-        <name>OREGOR LTD</name>
+        <name>OREGOR LP</name>
         <url>https://www.oregor.com</url>
     </organization>
 
@@ -26,7 +26,7 @@
         <developer>
             <name>Christos Tsakostas</name>
             <email>c.tsakostas@gmail.com</email>
-            <organization>OREGOR LTD</organization>
+            <organization>OREGOR LP</organization>
             <organizationUrl>https://www.oregor.com</organizationUrl>
         </developer>
     </developers>
@@ -65,9 +65,9 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <sonar-maven-plugin.version>3.5.0.1254</sonar-maven-plugin.version>
         <license-maven-plugin.version>1.14</license-maven-plugin.version>
-        <fmt-maven-plugin.version>2.8</fmt-maven-plugin.version>
-        <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
-        <checkstyle.version>8.19</checkstyle.version>
+        <fmt-maven-plugin.version>2.10</fmt-maven-plugin.version>
+        <maven-checkstyle-plugin.version>3.1.0</maven-checkstyle-plugin.version>
+        <checkstyle.version>8.22</checkstyle.version>
         <findbugs-maven-plugin.version>3.0.0</findbugs-maven-plugin.version>
         <maven-pmd-plugin.version>3.11.0</maven-pmd-plugin.version>
         <maven-jxr-plugin.version>2.4</maven-jxr-plugin.version>
