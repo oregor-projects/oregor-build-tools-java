@@ -38,3 +38,15 @@ git tag -a v1 -m "v1"
 ```bash
 git push origin v1
 ```
+
+### Delete local tag
+
+```bash
+git tag -d v1
+```
+
+### Delete remote tag
+
+```bash
+git push --delete origin v1
+```
