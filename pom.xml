@@ -219,6 +219,7 @@
                     <configuration>
                         <additionalparam>-Xdoclint:none</additionalparam>
                         <failOnError>true</failOnError>
+                        <source>8</source>
                     </configuration>
                 </plugin>
                 <!-- ===================================================================== -->
