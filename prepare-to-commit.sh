@@ -21,6 +21,9 @@ set -e
 # Uncomment the line below if you want to include license information in your source files.
 ./mvnw license:update-file-header
 
+# if you need to remove license execute:
+# ./mvnw license:remove-file-header
+
 ./mvnw com.coveo:fmt-maven-plugin:format
 
 # Add profile "validate-license" in the line below to validate license information.

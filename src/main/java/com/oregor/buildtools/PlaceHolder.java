@@ -2,7 +2,7 @@
  * ========================LICENSE_START=================================
  * Oregor Build Tools for Java
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Copyright (C) 2018 OREGOR LP
+ * Copyright (C) 2018 - 2020 OREGOR LP
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,12 +31,7 @@ public class PlaceHolder {
     super();
   }
 
-  public void thisisaverybignameasjdhkshdkshdkhaskdiuashdiuahsdiuhashdiuashdiuashuidsaidasd(
-      int a, int b, int a1, int b1, int a2, int b2, int df, int ss, int fff) {
+  public void dummy() {
     throw new UnsupportedOperationException();
-  }
-
-  int add(int a, int b) {
-    return a + b;
   }
 }
