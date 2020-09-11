@@ -5,10 +5,13 @@
 ```bash
 brew doctor
 brew update
-brew install -v gpg
+brew install gpg2
 
 git config --global gpg.program $(which gpg)
 echo "no-tty" >> ~/.gnupg/gpg.conf
+git config -l | grep gpg
+
+ln -s /usr/local/bin/gpg /usr/local/bin/gpg2 
 ```
 
 ## Code Signing
