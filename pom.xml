@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.oregor</groupId>
     <artifactId>oregor-build-tools-java</artifactId>
-    <version>0.0.6-SNAPSHOT</version>
+    <version>0.0.5-SNAPSHOT</version>
     <name>Oregor Build Tools for Java</name>
     <description>Oregor Build Tools for Java. Checkstyle.</description>
     <url>https://www.oregor.com</url>
