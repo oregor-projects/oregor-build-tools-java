@@ -1,5 +1,12 @@
 # TRAVIS CI
 
+## CLI
+
+```bash
+brew install travis
+
+```
+
 ## MAC
 
 ```bash
@@ -7,9 +14,14 @@ brew doctor
 brew update
 brew install gpg2
 
+git config --global user.signingkey=C32DC3150633DD41
+git config --global user.email ct@oregor.com
+git config --global user.name Christos Tsakostas
 git config --global gpg.program $(which gpg)
+
 echo "no-tty" >> ~/.gnupg/gpg.conf
-git config -l | grep gpg
+
+git config -l 
 
 ln -s /usr/local/bin/gpg /usr/local/bin/gpg2 
 ```
