@@ -1,4 +1,8 @@
 # Release
 
+```bash
+export GPG_TTY=$(tty)
 
-    mvn versions:set -DnewVersion=1.2.3
+./mvnw release:prepare
+./mvnw release:perform
+```
